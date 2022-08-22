@@ -55,6 +55,7 @@ footer div {
 }
 footer a {
     background-color: #7A2048;
+    width: auto;
 }
 .about me {
     float: center;
@@ -75,4 +76,9 @@ img {
     padding: 5px;
     width: 200px;
 }
-
+workdisplay {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+}
