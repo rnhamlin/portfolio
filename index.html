@@ -32,35 +32,63 @@
 
 <!--body: where most of it lives-->
 <body>
-
 <!--About Me: bio/intro section-->
-<section id="about-me">
+<section class="bio" id="about-me">
+    <img src="./assets/images/Renee.png" alt="profile of woman with braided, dark-blond hair and blue eyes">
     <h2>About Me</h2>
     <p>As a part-time teacher, I have a background in education and writing (essays, stories, poetry). I have long been interested in what it takes to create interesting, dynamic websites, and I'm excited to develop this portfolio!</p>
-
 </section>
 <br/>
-
 <!--Work: showcase section that gives images/links to projects-->
 <section id="work">
+    <style>
+        img {
+            border: 0;
+            padding: 5px;
+            width: 150px;
+        }
+        img:hover {
+            box-shadow: 0 0 2px 1px rgba (0, 140, 189, 0.5)
+        }
+    </style>
     <h2>Work</h2>
+    <style>
+        body {
+            margin:30px;
+        }
+        div.polaroid {
+            width: 50%;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rbga (0, 0, 0, 0.19);
+            margin-bottom: 25px;
+        }
+        div.container {
+            text-align: center;
+            padding: 10px 20px;
+        }
+    </style>
     <!--first project-->
-    <div>
-        <h3>1st project</h3>
-        <img src="./assets/jack-coding.jpg" alt="proj 1 placeholder" />
+    <div class="polaroid">
+       <a target="_blank" href="https://wilmr.github.io/Music-en-Vivo/index.html">
+        <img src="./assets/images/musicenvivo1.png" alt="music en vivo glimpse" /></a>
+        <div class="container">
+            <p>Project 1</p>
+        </div>
     </div>
     <!--second project, placeholder-->
-    <div>
+    <div class="polaroid">
         <h3>proj 2</h3>
-        
+        <img src="./assets/images/placeholder1.png" alt="starry sky over rocky canyon">
     </div>
     <!--3rd project, placeholder-->
-    <div>
+    <div class ="polaroid">
         <h3>proj 3</h3>
+        <img src="./assets/images/placeholder1.png" alt="starry sky over rocky canyon">
     </div>
     <!--fourth project, placeholder-->
-    <div>
+    <div class="polaroid">
         <h3>proj 4</h3>
+        <img src="./assets/images/placeholder1.png" alt="starry sky over rocky canyon">
     </div>
 </section>
 <br/>
